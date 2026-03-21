@@ -1,103 +1,49 @@
-header {
-    height: 80px;
-    background: url("logo.png") no-repeat;
-    border-bottom: solid 1px lightgrey;
-    background-color: #4d3a4d;
-}
-main {
-    width: 70%;
-    float: left;
-    background-color: #fff5ff;
-}
-aside {
-    float: left;
-    width: 30%;
+.caixa-de-pesquisa{
     background-color: #b7a6b4;
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
-/* Componente Caixa Menu Principal */
-
+header{
+    background-color:#b7a6b4;
+    border-bottom: 2px solid black;
+}
+img{
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+}
 .caixa-menuprincipal {
-    right: 0px;
-    float: right;
-    margin: 10px
+    border-top: 2px solid #000000;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: aliceblue;
 }
-
-.caixa-menuprincipal ul {
-    list-style-type: none;
+main{
+    background-color: #f5cacc;
 }
-
-.caixa-menuprincipal ul li {
-    display: inline-block;
-}
-
-.caixa-menuprincipal ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    background-color:#ff9ff1;
-}
-
-.caixa-menuprincipal ul li a:hover {
-    background-color: black;
-    color: white    
-}
-
-/* Componente Caixa Post */
-.receita {
-    padding: 10px 10px;
-    clear: both;
-}
-
-.receita img {
+main  img{
+    height: 100px;
     display: block;
-    margin-right: 10px;
-    width: 200px
+    margin: 0 auto;
 }
-
-.receita h4 {
-    color: #ff9ff1;
-    font-size: 60%;
-    margin-bottom: 10px
+article{
+    border: 2px solid #000000;
+    width: 500px;
+    background-color: antiquewhite;
 }
-
-.receita p.texto {
-    font-size: 80%;
+aside{
+    background-color: aqua;
 }
-
-.receita span:nth-child(3) {
-    background-color: lightskyblue;
-    color: white;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 3px
+:link{
+    color: black;
 }
-/* Componente Caixa Pesquisa */
-.caixa-de-pesquisa {
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    float: right;
+:active{
+    color: black;
 }
-
-.caixa-de-pesquisa h3 {
-    margin-bottom: 10px;
+:visited{
+    color: black;
 }
-button{
-    background-color:#ff9ff1;
-}
-/* Componente Caixa Categoria */
-.caixa-categoria {
-    margin: 20px;
-}
-
-.caixa-categoria h3 {
-    margin-bottom: 10px;
-}
-
-.caixa-categoria ul {
-    list-style-type: none;
-}
-
-.caixa-categoria a {
-    text-decoration: none;
+*{
+    margin: 0px;
 }
