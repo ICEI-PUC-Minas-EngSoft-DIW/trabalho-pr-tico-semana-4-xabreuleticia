@@ -134,3 +134,56 @@ h1{
 .Texto{
     padding: 10px;
 }
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical; /* permite aumentar só pra baixo */
+}
+
+/* Campo da receita (textarea) */
+.input-group textarea {
+    min-height: 120px;
+}
+
+/* Botão */
+submit{
+    width: 100%;
+    padding: 10px;
+    background-color:#7c5555;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b7a6b4;
+}

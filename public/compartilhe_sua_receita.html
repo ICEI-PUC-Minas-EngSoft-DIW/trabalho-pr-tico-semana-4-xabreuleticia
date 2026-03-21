@@ -37,10 +37,33 @@
     </header>
 
     <!--Conteúdo do site -->
-    <main> 
-        <h1>Compartilhe sua receita</h1>
-        
-    </main>
+<main> 
+    <h1>Compartilhe sua receita</h1>
+
+    <div class="container">
+        <form>
+            <h2>Cadastre-se</h2>
+
+            <div class="input-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            </div>
+
+            <!-- NOVO CAMPO -->
+            <div class="input-group">
+                <label for="receita">Sua Receita</label>
+                <textarea id="receita" name="receita" placeholder="Digite sua receita aqui..." rows="6" required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</main>
 
     <!--Barra lateral-->
     <aside> 
