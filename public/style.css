@@ -79,7 +79,7 @@ article{
     margin: 25px;
 }
 aside{
-    background-color: aqua;
+    background-color: antiquewhite;
     float: right;
     width: 19.8%;
     height: 1000px;
@@ -99,9 +99,10 @@ aside{
     margin: 0px;
 }
 footer{
-    background-color: bisque;
+    background-color:  antiquewhite;
     margin-top: 1000px;
     width: 100%;
+    padding: 10px;
 }
 .Nome{
     display: inline;
@@ -164,15 +165,12 @@ form {
     border: 1px solid #999;
     border-radius: 5px;
     font-size: 14px;
-    resize: vertical; /* permite aumentar só pra baixo */
+    resize: vertical; 
 }
-
-/* Campo da receita (textarea) */
 .input-group textarea {
     min-height: 120px;
 }
 
-/* Botão */
 submit{
     width: 100%;
     padding: 10px;
@@ -186,4 +184,14 @@ submit{
 
 button:hover {
     background-color: #b7a6b4;
+}
+h4{
+    display: inline;
+    font-family: 'Baloo 2', cursive;
+    font-size:large;
+    text-align:center;
+    color: rgb(168, 124, 124);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px
 }
