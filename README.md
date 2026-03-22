@@ -8,17 +8,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Letícia Xavier Abreu
+- Matricula: 910742
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 
 
 ## Print do(s) wireframe(s) criado
-
+![print wireframe](public/print-wireframe.PNG)
 <<  COLOQUE A IMAGEM AQUI >>
 
 
 ## Print da home-page criada
-
+![print home-page](public/print-homepage.PNG)
 <<  COLOQUE A IMAGEM AQUI >>
