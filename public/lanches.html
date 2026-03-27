@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delíciare - Lanches</title>
+    <title>Delíciare</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -35,62 +35,80 @@
         </nav>
 
     </header>
-    
+
     <!--Conteúdo do site -->
-    <main> 
+    <div class="layout">
+        <main> 
         <h1>Lanches</h1>
 
-    </main>
+        </article>
+        </main>
 
-    <!--Barra lateral-->
-    <aside> 
+        <!--Barra lateral-->
+        <aside> 
 
-        <div class="caixa-categoria">
-            <h4>Tempo de preparo</h4>
-            <ul>
-                <li><a href="rapido.html">Rápido (até 20 min)</a></li>
-                <li><a href="moderado.html">Moderado (20 a 45 min) </a></li>
-                <li><a href="demorado.html">Demorado (mais de 45 min)</a></li>
-            </ul>
-            <h4>Dificuldade</h4>
-            <ul>
-                <li><a href="dificuldade-baixa.html">Baixa</a></li>
-                <li><a href="dificuldade-media.html">Média</a></li>
-                <li><a href="dificuldade-alta.html">Alta</a></li>
-            </ul>
-            <h4>Proteína</h4>
-            <ul>
-                <li><a href="vegetariana.html">Vegetariana</a></li>
-                <li><a href="frango.html">Frango</a></li>
-                <li><a href="boi.html">Carne bovina</a></li>
-                <li><a href="porco.html">Carne suína</a></li>
-                <li><a href="frutos-do-mar.html">Peixe/frutos do mar</a></li>
-                <li><a href="misto.html">Misto</a></li>
-            </ul>
-            <h4>Estilos</h4>
-            <ul>
-                <li><a href="saudavel.html">Saúdavel</a></li>
-                <li><a href="fitness.html">Fitness</a></li>
-                <li><a href="low-carb.html">Low Carb</a></li>
-                <li><a href="vegana.html">Vegana</a></li>
-                <li><a href="sem-lactose.html">Sem lactose</a></li>
-                <li><a href="sem-gluten.html">Sem glúten</a></li>
-            </ul>
-            <h4>Ocasião</h4>
-            <ul>
-                <li><a href="dia-a-dia.html">Dia a dia</a></li>
-                <li><a href="festa.html">Festa</a></li>
-                <li><a href="jantar-especial.html">Jantar especial</a></li>
-                <li><a href="datas-comemorativas.html">Datas comemorativas</a></li>
-                <li><a href="para-visitas.html">Para receber visitas</a></li>
-            </ul>
-        </div>
+            <div class="caixa-categoria">
+                <h5>Categorias</h5>
+                <legend for="tempo-de-preparo">Tempo de preparo:</legend>
 
-    </aside>
+                <select name="tempo-de-preparo" id="tempo-de-preparo-escolha">
+                <option value="">Escolha um tempo de preparo</option>
+                <option value="vegetariana">Rápido (até 20 min)</option>
+                <option value="frango">Moderado (20 a 45 min)</option>
+                <option value="boi">Demorado (mais de 45 min)</option>
+                </select>
+
+                <legend for="dificuldade">Nível de dificuldade:</legend>
+
+                <select name="dificuldade" id="dificuldade-escolha">
+                <option value="">Escolha o nível de dificuldade</option>
+                <option value="baixa">Baixa</option>
+                <option value="media">Média</option>
+                <option value="alta">Alta</option>
+                </select>
+
+                <legend for="proteina">Proteína:</legend>
+
+                <select name="proteina" id="proteina-escolha">
+                <option value="">Escolha uma proteína</option>
+                <option value="vegetariana">Vegetariana</option>
+                <option value="frango">Frango</option>
+                <option value="boi">Carne bovina</option>
+                <option value="porco">Carne suína</option>
+                <option value="frutos-do-mar">Peixa/frutos do mar</option>
+                <option value="misto">Mais de uma opção (misto)</option>
+                </select>
+                
+                <legend for="estilo">Estilo:</legend>
+
+                <select name="estilo" id="estilo-escolha">
+                <option value="">Escolha um estilo</option>
+                <option value="saudavel">Saúdavel</option>
+                <option value="fitness">Fitness</option>
+                <option value="low-carb">Low Carb</option>
+                <option value="vegana">Vegana</option>
+                <option value="sem-lactose">Sem lactose</option>
+                <option value="sem-gluten">Sem glúten</option>
+                </select>
+
+                <legend for="ocasiao">Ocasião:</legend>
+
+                <select name="ocasiao" id="ocasiao-escolha">
+                <option value="">Escolha uma ocasiao</option>
+                <option value="dia-a-dia">Dia a dia</option>
+                <option value="festa">Festa</option>
+                <option value="jantar-especial">Jantar especial/option>
+                <option value="datas-comemorativas">Datas comemorativas</option>
+                <option value="para-visitas">Para receber visitas</option>
+                </select>
+            </div>
+
+        </aside>
+    </div>
     <footer>
         <p class="rodape">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, explicabo.</p>
 
     </footer>
-    
 </body>
 </html>
+

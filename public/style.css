@@ -31,7 +31,6 @@ img{
     height: 50px;
     border: 2px solid #7c5555;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 .caixa-menuprincipal ul {
@@ -60,10 +59,10 @@ img{
 main {
     background-color: beige;
     display: block;
-    height: 1000px;
+    height: 1060px;
     width: 80%;
     float: left;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #7c5555;
 }
 main  img{
     height: 100px;
@@ -73,7 +72,7 @@ main  img{
     border-radius: 20px;
 }
 article{
-    border: 2px solid #000000;
+    border: 2px solid #7c5555;
     width: 300px;
     background-color: antiquewhite;
     display: inline;
@@ -85,9 +84,9 @@ aside{
     background-color: antiquewhite;
     float: right;
     width: 19.8%;
-    height: 1000px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    height: 1060px;
+    border-bottom: 2px solid #7c5555;
+    border-left: 2px solid #7c5555;
 }
 :link{
     color: black;
@@ -180,7 +179,7 @@ form {
     min-height: 120px;
 }
 
-submit{
+.submit{
     width: 100%;
     padding: 10px;
     background-color:#7c5555;
@@ -205,4 +204,39 @@ h4{
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 20px
+}
+legend{
+    display: inline;
+    font-family:cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:large;
+    color: rgb(168, 124, 124);
+    padding: 10px;
+}
+select{
+    background-color: #7c5555;
+    color: beige;
+    font-family:cursive;
+    font-size: 15px;
+    width: 220px;
+    display: inline;   
+    text-align:center;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding: 5px;
+}
+.caixa-categoria{
+    padding-left: 20px;
+}
+h5{
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(168, 124, 124);
+    margin-top: 10px;
+    margin-bottom: 5px
 }
